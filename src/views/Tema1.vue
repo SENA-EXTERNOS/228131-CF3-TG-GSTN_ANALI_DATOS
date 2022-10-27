@@ -162,7 +162,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img-2.png", alt="alt")
         .col-lg-8
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Probabilidad de conjuntos:")
               .col-12
                 p.mb-0 Probabilidad de la unión de dos conjuntos: 
@@ -214,15 +214,13 @@
       PasosB.color-acento-contenido
         .row(titulo="Ejercicio 1")
           .col-md-8.mb-4.mb-md-0
-            h4.alineacion.mb-4 Ejercicio 1
             p.alineacion.mt-5 En una tienda online el 40% de los usuarios compraron una marca de camisa y el 30% compraron una marca de zapato, el 20% ambos.  
             p.alineacion Si se elige un usuario al azar ¿Cuál es la probabilidad que compre una camisa, dado que compró unos zapatos? 
           .col-md-4
             figure
               img.img-linea(src='@/assets/curso/temas/tema1/img-linea-1.png') 
-        .row(titulo="Fórmula 1")
-          .col-md-8.mb-4.mb-md-0
-            h4.alineacion.mb-5 Fórmula de la probabilidad condicional 
+        .row(titulo="Fórmula de la probabilidad condicional")
+          .col-md-8.mb-4.mb-md-0 
             .row 
               .col-md-8
                 p.alineacion La fórmula de la probabilidad condicional es:
@@ -242,15 +240,13 @@
               img.img-linea(src='@/assets/curso/temas/tema1/img-linea-2.png')
         .row(titulo="Ejercicio 2")
           .col-md-8.mb-4.mb-md-0
-            h4.alineacion.mb-4 Ejercicio 2 
             p.alineacion En la misma tienda online se selecciona un usuario al azar  
             p.alineacion ¿Cuál es la probabilidad de que compre zapatos, teniendo en cuenta que ya compró una camisa? 
           .col-md-4
             figure
               img.img-linea(src='@/assets/curso/temas/tema1/img-linea-3.png') 
-        .row(titulo="Fórmula  2")
+        .row(titulo="Fórmula de la probabilidad condicional")
           .col-md-8.mb-4.mb-md-0
-            h4.alineacion.mb-4 Fórmula de la probabilidad condicional
             .row
               .col
                 figure.d-flex.justify-content-center
@@ -263,7 +259,6 @@
               img.img-linea(src='@/assets/curso/temas/tema1/img-linea-4.png') 
         .row(titulo="Intersección de conjuntos")
           .col-md-8.mb-4.mb-md-0
-            h4.alineacion.mb-5 Intersección de conjuntos
             p.alineacion El símbolo A∩B en conjuntos es un elemento que está en la intersección de los dos conjuntos, es decir en ambos. 
           .col-md-4
             figure
