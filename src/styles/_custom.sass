@@ -99,9 +99,26 @@
   width: 400px
   
 
-.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  &:after
+    background-color: #FECA2E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color:  #c4c3c3
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container
+  &:before
+    background-color: #FECA2E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container
+  &:after
+    background-color: #FECA2E
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
   border-color: #FECA2E
-  background-color:#FECA2E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container
+  &:before
+    background-color: #FECA2E
 
 // tema 2
 
@@ -166,6 +183,16 @@
 .bloque-texto-g__texto *
   display: inline-block !important
 
+@media screen and ( max-width: 992px )
+  .bloque-img-2
+    margin-left: 0%
+  .bloque-text-2
+    margin-right: 11% 
+  .bloque-texto-g__img.ima 
+    width: 69%
+  .bloque-img-2 
+    margin-left: 16%
+
 .img-te3
   width: 700px
 
@@ -210,7 +237,11 @@
   .bloque-img-8
     margin-left: 0%
   .bloque-text-8
-    margin-right: 0%  
+    margin-right: 0% 
+  .bloque-texto-g__texto
+    width: 77% 
+  .bloque-text-8.caj 
+    margin-right: 12%;
 
 .color-cajon2
   background-color:#FFF2CA !important

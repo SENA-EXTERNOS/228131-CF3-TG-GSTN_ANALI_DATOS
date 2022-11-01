@@ -224,8 +224,8 @@
     
     p.mb-5 Ahora se trabajará con probabilidad condicional 
 
-    .tarjeta.tarjeta--gris.p-4.color-fondolinea.pb-0
-      PasosB.color-acento-contenido
+    .tarjeta.tarjeta--gris.p-4
+      LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="Ejercicio 1")
           .col-md-8.mb-4.mb-md-0
             p.alineacion.mt-5 En una tienda online el 40% de los usuarios compraron una marca de camisa y el 30% compraron una marca de zapato, el 20% ambos.  

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Introducción a la distribución normal 
 
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4.mb-5(titulo="Promedio")

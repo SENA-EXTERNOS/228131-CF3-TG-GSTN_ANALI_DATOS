@@ -233,10 +233,10 @@
     h3.mb-5 Introducción a Google Colab  
 
     .row.mb-5
-      .col-lg-3.col-md-3.col-sm-12
+      .col-lg-3.col-md-3.col-sm-12.mb-5
         figure
           img(src='@/assets/curso/temas/tema3/img-23.png')
-      .col-lg-9.col-md-3.col-sm-12
+      .col-lg-9.col-md-9.col-sm-12
         p En <b>Google Colab</b> se tienen máquinas virtuales con tarjetas gráficas que Google facilita.  Permite ejecutar código en el lenguaje <b>Python</b> dentro de la nube con el formato de <b><em>Jupyter Notebook</em></b> extensión <b>ipynb</b>.
 
         p <b>Jupyter Notebook</b> se puede utilizar localmente o en la nube con Google Colab. Para usarlo localmente debe instalarse en el computador. 
