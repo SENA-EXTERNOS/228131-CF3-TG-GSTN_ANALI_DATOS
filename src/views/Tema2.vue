@@ -120,24 +120,27 @@
                   img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-13.png') 
 
     h4.mb-5 Distribución normal estandarizada 
+    .row.mb-5.d-flex.justify-content-center 
+      .col-lg-10
+        .titulo-sexto.color-secundario.color-barra-1.pb-0.ms-2.mt-4
+          p.mt-1 <b>Figura 4</b>. Distribución normal estandarizada 
+        ImagenInfograficaB.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img-14.png')
 
-    ImagenInfograficaB.color-acento-botones.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema2/img-14.png')
-
-      .tarjeta.colormodal(x="50%" y="55%" numero="1")
-        .row.justify-content-center.mb-5.p-5
-          .col-8
-            p.mt-4.color-texto En el intervalo z en (-1, 1) se tiene el 68.2% de los datos
-      .tarjeta.colormodal(x="60%" y="70%" numero="2")
-        .row.justify-content-center.mb-5.p-5
-          .col-8
-            p.mt-4.color-texto En el intervalo z en (-2, 2) se tiene el 95.4% de los datos 
-      .tarjeta.colormodal(x="70%" y="75%" numero="3")
-        .row.justify-content-center.mb-5.p-5
-          .col-8
-            p.mt-4.color-texto En el intervalo z en (-3, 3) se tiene el 99.6% de los datos 
+          .tarjeta.colormodal(x="50%" y="55%" numero="1")
+            .row.justify-content-center.mb-5.p-5
+              .col-8
+                p.mt-4.color-texto En el intervalo z en (-1, 1) se tiene el 68.2% de los datos
+          .tarjeta.colormodal(x="60%" y="70%" numero="2")
+            .row.justify-content-center.mb-5.p-5
+              .col-8
+                p.mt-4.color-texto En el intervalo z en (-2, 2) se tiene el 95.4% de los datos 
+          .tarjeta.colormodal(x="70%" y="75%" numero="3")
+            .row.justify-content-center.mb-5.p-5
+              .col-8
+                p.mt-4.color-texto En el intervalo z en (-3, 3) se tiene el 99.6% de los datos 
 </template>
 
 <script>

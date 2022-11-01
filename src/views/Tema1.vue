@@ -156,6 +156,20 @@
           figure(data-aos="fade-right")
             img.img-250.img-cen(src='@/assets/curso/temas/tema1/img-1.png')
 
+    .row.mb-5
+      .col-lg-3.col-md-6
+        figure(data-aos="fade-right")
+          img.img-250.img-cen(src='@/assets/curso/temas/tema1/slider-img-3.png')
+      .col-lg-9.col-md-12
+        p.mt-3 Un espacio muestral sería el conjunto de valores que toma un experimento, en este caso  serían el total de bolas  negras y blancas     , por lo tanto, el espacio muestral tendría un valor de 4 sumando las 3 bolas negras con la bola blanca.  
+
+        h4 Cardinal o longitud 
+
+        p El cardinal o longitud de ese espacio muestral es 4 que es el tamaño o la suma de todos los posibles valores del experimento. 
+
+
+    p.mb-5 A continuación, se trabajará con probabilidad de conjuntos   (Martínez, 2019)     
+
     .bg--img_03
       .row.justify-content-center.mb-4
         .col-lg-4
@@ -200,14 +214,14 @@
                 p P (redes) = 0.6 
                 p P (programación ∪ redes) = 0.7 
 
-                .row(titulo="Solución 1")
-                  .col-12
-                    p.text-center <b>P(A∪B)=P(A)+P(B)−P(A∩B)</b>
-                    p.ms-4 0.7 = 0.5 + 0.6 - P(A∩B) 
-                    p.ms-4 0.7 = 0.11- P(A∩B)
-                    p.text-center <b>P(A∩B)=0.59</b>
-                    p La probabilidad es del 59% de tener aprobadas ambas materias: programación y redes. 
-
+            .row(titulo="Solución 2")
+              .col-12
+                p.text-center <b>P(A∪B)=P(A)+P(B)−P(A∩B)</b>
+                p.ms-4 0.7 = 0.5 + 0.6 - P(A∩B) 
+                p.ms-4 0.7 = 0.11- P(A∩B)
+                p.text-center <b>P(A∩B)=0.59</b>
+                p La probabilidad es del 59% de tener aprobadas ambas materias: programación y redes. 
+    
     p.mb-5 Ahora se trabajará con probabilidad condicional 
 
     .tarjeta.tarjeta--gris.p-4.color-fondolinea.pb-0
