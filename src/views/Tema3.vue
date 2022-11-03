@@ -472,7 +472,7 @@
             .col.mb-3.mb-sm-0
               pPara una mejor comprensión del video, el manejo de Google Colab y el documento jupyter Notebook con extensión ipynb, el cual se trabaja en el video, los invitamos a descargar los 3 archivos adjuntos.  
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/MANEJO DE GOOGLE COLAB.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
