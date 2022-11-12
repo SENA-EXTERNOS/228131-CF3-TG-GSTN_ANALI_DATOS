@@ -7,6 +7,8 @@
         span 2
       h1 Introducción a la distribución normal 
 
+    p.mb-5 En esta parte aprenderá sobre la distribución normal, iniciando con los conceptos teóricos-prácticos sobre cálculo del promedio y desviación de un conjunto de datos. 
+
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4.mb-5(titulo="Promedio")
         .row 
@@ -32,10 +34,9 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-4.png') 
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación de la <br>desviación estandar")
         .row.d-flex.justify-content-center.align-items.center
           .col-md-6 
-            h4 Representación de la desviación estándar 
             figure
               img(src='@/assets/curso/temas/tema2/img-5.png',)
           .col-md-6.centrar

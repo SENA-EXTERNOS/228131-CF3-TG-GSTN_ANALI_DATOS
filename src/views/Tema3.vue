@@ -93,22 +93,22 @@
           .bloque-texto-a__texto.p-4
             h5 Error tipo 1 
             br
-            p En estadística cuando se plantea una prueba de hipótesis se habla de un error que se puede cometer, se llama error tipo 1 (𝛼) el cual ocurre cuando se rechaza la hipótesis nula siendo esta verdadera.  
+            p En estadística cuando se plantea una prueba de hipótesis se habla de un error que se puede cometer, se llama <b>error tipo 1 (𝛼) el cual ocurre cuando se rechaza la hipótesis nula siendo esta verdadera.</b>  
             br
-            p El error tipo 1(𝛼) se conoce también como error de tipo alfa (α) o falso positivo.
+            p El error tipo 1(𝛼) se conoce también como <b>error de tipo alfa (α)</b> o falso positivo.
         .col-lg-5.mb-lg-0
           figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema3/img-5.png')
 
-    p Con un intervalo de confianza del 95%, el resto sería el error, es decir, el error tipo 1 es 𝛼 = 5%= 0.05, como se está diciendo que son diferentes, no mayor ni menor, se debe trabajar con 2 colas el error se divide entre las dos colas 𝛼2=2.5%=0.025. 
-    p.mb-5 El valor z en la distribución normal estandarizada correspondiente a ese Intervalo de Confianza del 95% es Z=1.96 
+    p Con un intervalo de confianza del 95%, el resto sería el error, es decir, el <b></b>error tipo 1 es 𝛼 = 5%= 0.05, como se está diciendo que son diferentes, no mayor ni menor, se debe trabajar con 2 colas el error se divide entre las dos colas 𝛼2=2.5%=0.025. 
+    p.mb-5 El valor <b>z</b> en la <b>distribución normal estandarizada</b> correspondiente a ese Intervalo de Confianza del <b>95% es Z=1.96</b>
 
     .row.mb-5
       .col-lg-6.col-md-12
         .cajon.color-acento-contenido.color-cajon.p-4.mb-4
-          p Siguiendo con el ejemplo, calculará el estadístico, si ese estadístico cae en el intervalo de z (-1.96, 1.96) significa que cae en la región de aceptación de Ho, por lo tanto, se puede decir que con un 95% de confianza no hay diferencia significativa entre los hombres y las mujeres que se enferman.
+          p Siguiendo con el ejemplo, calculará el <b>estadístico</b>, si ese estadístico cae en el intervalo de z <b>x(-1.96, 1.96) significa que cae en la región de aceptación de Ho</b>, por lo tanto, se puede decir que con un 95% de confianza no hay diferencia significativa entre los hombres y las mujeres que se enferman.
 
-        p Pero si el estadístico cae fuera del intervalo de z (-1.96, 1.96), es decir, valores mayores a z = 1.96 o valores menores a z = -1.96 significa que cae en la región de rechazo de Ho, por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95% de confianza si hay diferencia significativa entre los hombres y las      mujeres que se enferman. 
+        p Pero si el <b>estadístico</b> cae fuera del intervalo de z (-1.96, 1.96), es decir, valores mayores a z = 1.96 o valores menores a z = -1.96 <b>significa que cae en la región de rechazo de Ho</b>, por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95% de confianza si hay diferencia significativa entre los hombres y las      mujeres que se enferman. 
 
       .col-lg-6.col-md-12
         figure(data-aos="fade-right")
@@ -156,7 +156,7 @@
           .col-6
             figure.mb-3
               img(src='@/assets/curso/temas/tema3/img-13.png')
-
+          p.fs-5 Donde:
           figure.mb-3
             img(src='@/assets/curso/temas/tema3/img-15.png')
       
@@ -175,7 +175,9 @@
       img.img-text(src='@/assets/curso/temas/tema3/img-18.png')
 
     p.mb-5 El estadístico z = -8.74 cae por fuera del intervalo de z (-1.96, 1.96), <b>significa que cae en la región de rechazo de Ho</b>, por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95% de confianza si hay diferencia significativa entre los hombres y mujeres que se enferman (Vladimirovna, 2016). 
-    h3.mb-5 Ahora se analizará con mayor detalle la gráfica de la distribución normal: 
+
+    h3.mb-5 Ahora se analizará con mayor detalle la gráfica de la distribución normal
+
     p.mb-5 La distribución normal, representada en la Campana de Gauss, tiene una función asociada que depende de la desviación, varianza, el promedio y el valor de x, tiene como nombre la función de densidad su fórmula es:
 
     .row.justify-content-center.mb-5
@@ -288,7 +290,6 @@
               figcaption Importar la librería <em>math</em> y utiliza la función potencia: <em>pow()</em> 
         .row
           .col-md-6.mb-4.mb-md-0
-            h3 Instalar una librería o paquete
             br 
             p <em>print(dir(math)) </em>
             p Muestra las funciones que están dentro de la librería math 
@@ -470,7 +471,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              pPara una mejor comprensión del video, el manejo de Google Colab y el documento jupyter Notebook con extensión ipynb, el cual se trabaja en el video, los invitamos a descargar los 3 archivos adjuntos.  
+              p Para una mejor comprensión del video, el manejo de Google Colab y el documento jupyter Notebook con extensión ipynb, el cual se trabaja en el video, los invitamos a descargar los 3 archivos adjuntos.  
             .col-sm-auto
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/MANEJO DE GOOGLE COLAB.pdf')" target="_blank")
                 span Descargar
