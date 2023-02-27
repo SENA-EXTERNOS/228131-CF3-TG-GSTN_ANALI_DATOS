@@ -9,11 +9,10 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-secundario
           h2 Probabilidad y prueba de hipótesis
-        p.mb-3 Con esta actividad se pretende repasar los conceptos estadísticos trabajados en el módulo y determinar qué se ha aprendido al respecto. 
+        p.mb-3 Con esta actividad, se pretende repasar los conceptos estadísticos trabajados en el módulo y determinar qué se ha aprendido al respecto.
 
-        p.mb-4 Muchos éxitos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 En el siguiente mapa podrá apreciar todos los conceptos relacionados con la probabilidad, hipótesis y desviación estándar, de modo que se adquiera una visión global de la temática desarrollada en este ítem     : 
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
    
 
     .row.justify-content-center

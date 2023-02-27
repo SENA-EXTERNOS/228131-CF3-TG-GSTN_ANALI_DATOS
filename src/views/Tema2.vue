@@ -7,10 +7,11 @@
         span 2
       h1 Introducción a la distribución normal 
 
-    p.mb-5 En esta parte aprenderá sobre la distribución normal, iniciando con los conceptos teóricos-prácticos sobre cálculo del promedio y desviación de un conjunto de datos. 
+    p.mb-3 En esta temática, se aprenderá sobre la distribución normal, iniciando con los conceptos teóricos-prácticos sobre cálculo del promedio y desviación de un conjunto de datos.
+    p.mb-5 Explicación de los conceptos de promedio, desviación estándar y estadística diferencial, antes de entrar en el tema de la distribución normal o campana de Gauss.
 
     TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4.mb-5(titulo="Promedio")
+      .tarjeta.color-acento-botones--borde.p-4.mb-5(titulo="Promedio.")
         .row 
           .col-md-8
             figure
@@ -18,14 +19,14 @@
           .col-md-4.centrar
             figure
               img(src='@/assets/curso/temas/tema2/img-2.png')  
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo de promedio ")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplo de promedio.")
         .row.d-flex.justify-content-center.align-items.center
           .col-md-8 
             p.ms-5 Calcular el promedio de los siguientes valores: 3, 4, 5, 6. 
             figure
               img(src='@/assets/curso/temas/tema2/img-3.png',)
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Desviación estándar")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Desviación estándar.")
         .row.d-flex.justify-content-center.align-items.center 
           .col-md-8 
             p También conocida como <b>desviación típica o desvío típico</b>, mide qué tanto se alejan los datos del promedio, es decir, si hay mucha variación entre ellos.
@@ -34,7 +35,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-4.png') 
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación de la <br>desviación estandar")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación de la <br>desviación estandar.")
         .row.d-flex.justify-content-center.align-items.center
           .col-md-6 
             figure
@@ -43,7 +44,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-6.png')         
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Estadística inferencial")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Estadística inferencial.")
         .row.d-flex.justify-content-center.align-items.center
           .col-md-8 
             p.mt-5.text.alinear Consiste en estimar ciertas características de la población en estudio a partir de una muestra y tomar decisiones sobre la población, utilizando los resultados obtenidos, siempre que la muestra sea efectivamente representativa de la población en estudio. 
@@ -66,10 +67,10 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Media de la población")
               .col-12
-                p.mb-0 Se simboliza con la letra mu (𝜇) del alfabeto griego. 
-                p.text-center <em>promedio o media de la población=𝜇</em>
-                p En la distribución normal la media es 0 y la desviación es 1, 𝜇=0 ; 𝜎=1.     
-                p Los datos se encuentran agrupados alrededor de la media de la población (𝜇), podemos hablar de porcentajes de datos agrupados en los intervalos(−𝜎+𝜇 , 𝜇+𝜎 ); ( −2𝜎+𝜇, 𝜇+2𝜎 ); ( −3𝜎+𝜇, 𝜇+ 3𝜎 )
+                p.mb-4 Se simboliza con la letra mu (𝜇) del alfabeto griego. 
+                p.text-center.mb-4 <em>promedio o media de la población=𝜇</em>
+                p En la distribución normal la media es 0 y la desviación es 1, 𝜇=0 ; 𝜎=1.      
+                p Los datos se encuentran agrupados alrededor de la media de la población (𝜇), podemos hablar de porcentajes de datos agrupados en los intervalos (−𝜎+𝜇 , 𝜇+𝜎 ); ( −2𝜎+𝜇, 𝜇+2𝜎 ); ( −3𝜎+𝜇, 𝜇+ 3𝜎 )
           
             .row(titulo="Distribución normal estandarizada")
               .col-12
@@ -86,7 +87,7 @@
                       p Los valores z negativos corresponden a los valores x que son menores que la media 𝜇 
                     li 
           
-            .row(titulo="Ejemplo nombre del botón")
+            .row(titulo="Ejemplo")
               figure.mb-4
                 img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-10.png').
               p Se observa que valores x1=3 , x2=4 que están por debajo de la media o promedio, los z correspondiente son negativos z1=−1.35  z2=−0.45
@@ -99,23 +100,24 @@
             .row(titulo="Gráfico 1")
               .col-md-6
                 h4.mb-4.mt-4.ms-5 Representación de la distribución normal  
-                .titulo-sexto.color-secundario.color-barra.pb-0.ms-5.mt-4
-                  h5.mt-1 Figura 2. Representación de la distribución normal  
+                p.mb-4.mt-4.ms-5 Como se observa en la gráfica, la media o promedio, resulta de dividir la suma de un conglomerado de números, entre la cantidad de ellos.
               .col-md-6
                 figure.mb-4
                   img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-11.png') 
+            
             .row(titulo="Gráfico 2")
               .col-md-6
                 h4.mb-4.mt-4.ms-5 Representación de la distribución normal  
-                .titulo-sexto.color-secundario.color-barra.pb-0.ms-5
-                  h5.mt-1 Figura 2. Representación de la distribución normal 
+                p.mb-4.mt-4.ms-5 Como puede observarse, la distribución normal es una distribución simétrica. Es asintótica, es decir sus extremos nunca tocan el eje horizontal, cuyos valores tienden a infinito.
+
               .col-md-6
                 figure.mb-4
                   img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-12.png') 
+            
             .row(titulo="Gráfico 3")
               .col-md-6
-                .titulo-sexto.color-secundario.color-barra.pb-0.ms-5.mt-4
-                  h5.mt-1 Figura 3. Distribución normal con porcentajes de área bajo la curva
+                p.mb-4.mt-4.ms-5 La curva normal, representa una distribución de frecuencia de una variable continua, en la cual la variable es cada vez menos frecuente, a medida que nos alejamos de su centro y, viceversa, más frecuente cuando nos acercamos a su centro. La curva es totalmente simétrica. En su centro coinciden las medidas de tendencia central: media, mediana y moda. 
+
               .col-md-6
                 figure.mb-4
                   img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-13.png') 
@@ -123,8 +125,7 @@
     h4.mb-5 Distribución normal estandarizada 
     .row.mb-5.d-flex.justify-content-center 
       .col-lg-10
-        .titulo-sexto.color-secundario.color-barra-1.pb-0.ms-2.mt-4
-          p.mt-1 <b>Figura 4</b>. Distribución normal estandarizada 
+
         ImagenInfograficaB.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -133,15 +134,17 @@
           .tarjeta.colormodal(x="50%" y="55%" numero="1")
             .row.justify-content-center.mb-5.p-5
               .col-8
-                p.mt-4.color-texto En el intervalo z en (-1, 1) se tiene el 68.2% de los datos
+                p.mt-4.color-texto En el intervalo z en (-1, 1) se tiene el 68.2 % de los datos.
           .tarjeta.colormodal(x="60%" y="70%" numero="2")
             .row.justify-content-center.mb-5.p-5
               .col-8
-                p.mt-4.color-texto En el intervalo z en (-2, 2) se tiene el 95.4% de los datos 
+                p.mt-4.color-texto En el intervalo z en (-2, 2) se tiene el 95.4 % de los datos.
           .tarjeta.colormodal(x="70%" y="75%" numero="3")
             .row.justify-content-center.mb-5.p-5
               .col-8
-                p.mt-4.color-texto En el intervalo z en (-3, 3) se tiene el 99.6% de los datos 
+                p.mt-4.color-texto En el intervalo z en (-3, 3) se tiene el 99.6 % de los datos.
+
+
 </template>
 
 <script>

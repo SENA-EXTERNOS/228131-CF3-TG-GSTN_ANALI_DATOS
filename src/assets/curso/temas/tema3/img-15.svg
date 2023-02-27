@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="416.408" height="95" viewBox="0 0 416.408 95">
+  <g id="Grupo_137283" data-name="Grupo 137283" transform="translate(-300.592 -5037.016)">
+    <text id="Far_far_away_behind" data-name="Far far away, behind" transform="translate(321 5037.016)" fill="#fafcfd" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15" xml:space="preserve">      =promedio de la muestra de hombres</tspan><tspan font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="39">𝜎</tspan><tspan y="39" font-size="9.333" font-family="Roboto-Regular, Roboto" baseline-shift="-5.33279994943018">1</tspan><tspan y="39" xml:space="preserve" font-family="Roboto-Regular, Roboto"> = desviación de la muestra de hombres.</tspan></tspan><tspan font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="63">n</tspan><tspan y="63" font-size="9.333" font-family="Roboto-Regular, Roboto" font-style="normal" baseline-shift="-5.33279994943018">1</tspan><tspan y="63" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-style="normal"> = tamaño de la muestra de hombres.</tspan></tspan><tspan font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="87">𝜇</tspan><tspan y="87" font-size="9.333" font-family="Roboto-Regular, Roboto" baseline-shift="-5.33279994943018">1</tspan><tspan y="87" xml:space="preserve" font-family="Roboto-Regular, Roboto"> = promedio de la población de hombres.</tspan></tspan></text>
+    <g id="Grupo_944" data-name="Grupo 944" transform="translate(300.592 5041.342)">
+      <g id="Grupo_423" data-name="Grupo 423">
+        <path id="Trazado_635" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_944-2" data-name="Grupo 944" transform="translate(300.592 5065.342)">
+      <g id="Grupo_423-2" data-name="Grupo 423">
+        <path id="Trazado_635-2" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_944-3" data-name="Grupo 944" transform="translate(300.592 5089.342)">
+      <g id="Grupo_423-3" data-name="Grupo 423">
+        <path id="Trazado_635-3" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_944-4" data-name="Grupo 944" transform="translate(300.592 5113.342)">
+      <g id="Grupo_423-4" data-name="Grupo 423">
+        <path id="Trazado_635-4" data-name="Trazado 635" d="M8.385,6.763,1.856.234A.8.8,0,0,0,.725.23l0,0L.24.715a.8.8,0,0,0,0,1.131l0,0L5.722,7.332.234,12.82a.8.8,0,0,0,0,1.131l0,0,.481.481a.8.8,0,0,0,1.131,0l0,0L8.385,7.9a.81.81,0,0,0,0-1.139Z" transform="translate(0.002 0.002)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Grupo_134875" data-name="Grupo 134875" transform="translate(-371.329 3526.269)">
+      <path id="Trazado_193803" data-name="Trazado 193803" d="M699.385,1520.634l2.367-4.107h2.368l-3.613,5.507,3.716,5.63H701.9l-2.47-4.21-2.471,4.21h-2.347l3.716-5.63-3.613-5.507h2.337Z" transform="translate(-0.122 -2.128)" fill="#fff"/>
+      <path id="Trazado_193804" data-name="Trazado 193804" d="M717.806,1536.929h-1.188v-7.646l-1.9.018v-.912l3.091-.324Z" transform="translate(-8.93 -7.182)" fill="#fff"/>
+      <path id="Trazado_193805" data-name="Trazado 193805" d="M704.419,1513.256h-10.09v-1.586h10.09Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
