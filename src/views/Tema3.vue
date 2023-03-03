@@ -93,7 +93,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-7
           .bloque-texto-a__texto.p-4
-            h5 Error tipo. 
+            h5 Error tipo 1. 
             br
             p En estadística, cuando se plantea una prueba de hipótesis, se habla de un error que se puede cometer; este se llama #[b error tipo 1  (𝛼) el cual ocurre cuando se rechaza la hipótesis nula, siendo esta verdadera.] 
             br
@@ -168,10 +168,13 @@
           figure.mb-3
             img.img-text(src='@/assets/curso/temas/tema3/img-16.svg')
 
-    figure.mb-5
-      img.img-text(src='@/assets/curso/temas/tema3/img-17.svg')
+    .row.my-5
+      p Los valores del problema serían       = 8.4, 𝜎 1 = 1.5, n1 =30,     =12.2, 𝜎2  =2.0, n2 =35, suponiendo que 𝜇1−𝜇2 = 0 
+      p Sustituyendo el estadístico de prueba, resulta: 
+
     figure.mb-5
       img.img-text(src='@/assets/curso/temas/tema3/img-18.png')
+
 
     p.mb-5 El estadístico z = -8.74 cae por fuera del intervalo de z (-1.96, 1.96), significa que cae en la región de rechazo de Ho, por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95 % de confianza si hay diferencia significativa entre los hombres y mujeres que se enferman. (Gutiérrez & Vladimirovna, 2016)
 
@@ -217,7 +220,7 @@
               figure.mb-1
                 img(src='@/assets/curso/temas/tema3/img-21.png')
 
-          p.text-center.mb-0 DDados los valores  
+          p.text-center.mb-0 Dados los valores  
           p.text-center.mb-0 μ=2,σ=3, σ2=9
           p.text-center  lo sustituye en la función, para graficarla se reemplazan valores para x. 
           br
@@ -468,9 +471,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p Para una mejor comprensión del video, el manejo de Google Colab y el documento Jupyter Notebook con extensión ipynb, el cual se trabaja en el video, los invitamos a descargar el archivo adjunto.
+              p Para una mejor comprensión del video, el manejo de Google Colab y el documento Jupyter Notebook con extensión ipynb, el cual se trabaja en el video, los invitamos a descargar los 3 archivos adjuntos.
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/MANEJO DE GOOGLE COLAB.pdf')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/CF03_22813-Material_descargable.zip')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

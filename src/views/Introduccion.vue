@@ -10,15 +10,15 @@
       h1 Introducción
 
     .row
-      .col-lg-8
+      .col-lg-9
         .bloque-texto-d.p-4.color-float
           .bloque-texto-d__texto.mb-2
-            p Estimado aprendiz, sea bienvenido a esta experiencia de aprendizaje orientado a la probabilidad y pruebas de hipótesis.  Se desarrollarán los contenidos de forma gradual iniciando por las bases estadísticas; aprenderá a distinguir la probabilidad de ocurrencia de un evento, el manejo la distribución normal, entre otros.  Este contenido le ayudará a distinguir los conceptos y estructuras más relevantes en la estadística inferencial para la analítica de datos como herramienta fundamental para su aplicación de manera efectiva en la solución de problemas. Antes de empezar, se sugiere revisar el siguiente video para identificar el contexto de aprendizaje:
+            p Estimado aprendiz, sea bienvenido a esta experiencia de aprendizaje orientado a la probabilidad y pruebas de hipótesis.  Se desarrollarán los contenidos de forma gradual iniciando por las bases estadísticas; aprenderá a distinguir la probabilidad de ocurrencia de un evento, el manejo la distribución normal, entre otros.  Este contenido le ayudará a distinguir los conceptos y estructuras más relevantes en la estadística inferencial para la analítica de datos como herramienta fundamental para su aplicación de manera efectiva en la solución de problemas. 
             br
             br
-            b ¡Le deseamos una experiencia de aprendizaje significativa y memorable!
+            p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
-      .col-lg-4
+      .col-lg-3.mt-5
         figure
           img(src="@/assets/curso/introduccion/img-1.png")
 
