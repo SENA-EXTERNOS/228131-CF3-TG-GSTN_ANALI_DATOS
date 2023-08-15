@@ -46,11 +46,11 @@
           ul.lista-ul.ms-4
             li 
               <i class="fas fa-angle-right" aria-hidden="true"></i>
-              p De 20 hombres arrojó un promedio de 8.4 y una desviación de 1.5.
+              p De 20 hombres, arrojó un promedio de 8.4 y una desviación de 1.5.
             li 
             li 
               <i class="fas fa-angle-right" aria-hidden="true"></i>
-              p De 25 mujeres arrojó un promedio de 12.2 y una desviación de 2.0.  
+              p De 25 mujeres, arrojó un promedio de 12.2 y una desviación de 2.0.  
             li 
             li 
               <i class="fas fa-angle-right" aria-hidden="true"></i>
@@ -102,15 +102,15 @@
           figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema3/img-5.png')
 
-    p Con un intervalo de confianza del 95 %, el resto sería el error, es decir, el error tipo 1 es 𝛼 = 5 %= 0.05, como se está diciendo que son diferentes, no mayor ni menor, se debe trabajar con 2 colas el error se divide entre las dos colas    =2.5%=0.025.  
-    p.mb-5 El valor z en la #[b distribución normal estandarizada] correspondiente a ese Intervalo de Confianza del #[b 95 % es Z=1.96]
+    p Con un intervalo de confianza del 95 %, el resto sería el error, es decir, el error tipo 1 es 𝛼 = 5 %= 0.05, como se está diciendo que son diferentes, no mayor ni menor, se debe trabajar con 2 colas, el error se divide entre las dos colas    =2.5 %=0.025.  
+    p.mb-5 El valor z en la #[b distribución normal estandarizada] correspondiente a ese Intervalo de Confianza del #[b 95 % es Z=1.96].
 
     .row.mb-5
       .col-lg-6.col-md-12
         .cajon.color-primario.color-cajon.p-4.mb-4
           p Siguiendo con el ejemplo, se calculará el #[b estadístico]; si ese estadístico cae en el intervalo de z #[b (-1.96, 1.96) significa que cae en la región de aceptación de Ho], por lo tanto, se puede decir que con un 95 % de confianza no hay diferencia significativa entre los hombres y las mujeres que se enferman.
 
-        p Pero si el #[b estadístico] cae fuera del intervalo de z (-1.96, 1.96), es decir, valores mayores a z = 1.96 o valores menores a z = -1.96 #[b significa que cae en la región de rechazo de Ho], , por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95 % de confianza si hay diferencia significativa entre los hombres y las mujeres que se enferman. 
+        p Pero si el #[b estadístico] cae fuera del intervalo de z (-1.96, 1.96), es decir, valores mayores a z = 1.96 o valores menores a z = -1.96, #[b significa que cae en la región de rechazo de Ho], por lo tanto, aceptación de la hipótesis alternativa H1, se puede afirmar que con un 95 % de confianza si hay diferencia significativa entre los hombres y las mujeres que se enferman. 
 
       .col-lg-6.col-md-12
         figure(data-aos="fade-right")

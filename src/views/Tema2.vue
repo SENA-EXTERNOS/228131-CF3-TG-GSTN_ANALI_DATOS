@@ -35,7 +35,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-4.png') 
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación de la <br>desviación estandar.")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Representación de la <br>desviación estándar.")
         .row.d-flex.justify-content-center.align-items.center
           .col-md-6 
             figure

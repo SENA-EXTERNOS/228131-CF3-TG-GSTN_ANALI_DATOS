@@ -11,7 +11,7 @@
 
     p El objetivo de este módulo es el de desarrollar bases conceptuales en torno a la estadística para que, posteriormente, permita el análisis de datos. 
 
-    p En este tema, se explicarán conceptos de la probabilidad, iniciando con la teoría, siguiendo con ejercicios prácticos referente a la probabilidad de ocurrencia de un evento.
+    p En este tema, se explicarán conceptos de la probabilidad, iniciando con la teoría, siguiendo con ejercicios prácticos referentes a la probabilidad de ocurrencia de un evento.
 
     p La probabilidad se define como número de casos favorables dividido sobre número de casos posibles (Aguilar, 2021).
 
@@ -193,7 +193,7 @@
               .col-12
                 p.mb-0 Probabilidad de la unión de dos conjuntos: 
                 p P(AUB)=P(A)+P(B)-P(A∩B)
-                p A y B sucesos independientes
+                p A y B sucesos independientes.
             
             .row(titulo="Ejercicio 1")
               .col-12
@@ -255,7 +255,7 @@
             .row 
               .col-md-8
                 h3.mb-5 Fórmula de la probabilidad condicional
-                p La fórmula de la probabilidad condicional es:
+
               .col-md-4.mt-5
                 figure
                 img.img-for(src='@/assets/curso/temas/tema1/img-for-1.png')
