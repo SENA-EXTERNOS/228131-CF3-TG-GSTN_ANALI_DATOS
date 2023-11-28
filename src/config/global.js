@@ -229,8 +229,7 @@ export default {
     {
       referencia:
         'Lind, D., Marchal, W. & Wathen, S. (2012). <i>Estadística aplicada a los negocios y la economía</i> (15a ed). McGraw-Hill Interamericana.',
-      link:
-        'https://eduvirtual.cuc.edu.co/moodle/pluginfile.php/523770/mod_resource/content/1/Estadistica%20para%20Administraion%20y%20Negocios.pdf',
+      link: 'https://cape.fcfm.buap.mx/jdzf/cursos/est1/libros/book1e1.pdf',
     },
     {
       referencia:
